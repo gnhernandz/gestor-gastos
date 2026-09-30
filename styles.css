@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  padding: 24px;
+}
+
+/* 1. La caja centrada */
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* 2. El título centrado */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 3. El formulario como tarjeta centrada */
+#form-gasto {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+
+  /* Para alinear los campos adentro */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#form-gasto input,
+#form-gasto select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#form-gasto button {
+  padding: 12px;
+  background-color: #2563eb; /* Azul moderno */
+  color: white;              /* Texto blanco */
+  border: none;              /* Quitamos el borde gris por defecto */
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;           /* Manito al pasar el mouse */
+}
+
+.tarjeta-semana {
+  background-color: #ffffff;
+  padding: 10 px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
